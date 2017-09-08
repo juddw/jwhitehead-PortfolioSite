@@ -1,0 +1,250 @@
+﻿.myDescriptionTitleHighlight {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #f0b40e;
+    text-shadow: 2px 2px 15px black, 0 0 25px black, 0 0 50px #c2a57e;
+}
+
+.myDescriptionTitle {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    text-shadow: 2px 2px 15px white, 0 0 25px white, 0 0 50px #c2a57e;
+}
+
+#myAboutMeHeader {
+    font-weight: 300;
+    color: #635645;
+}
+
+#mySkillsHeader {
+    font-weight: 300;
+    color: #334959;
+}
+
+.mySmallQuoteText {
+    font-weight: 500;
+    color: #334959;
+}
+
+.lightBrownText {
+    font-weight: 400;
+    color: #c2a57e;
+}
+
+.lightBlueText {
+    font-weight: 500;
+    color: #377989;
+}
+
+.mediumBlueText {
+    font-weight: 500;
+    color: #377989;
+}
+
+.darkBrownText {
+    font-weight: 500;
+    color: #635645;
+}
+
+.darkBlueText {
+    font-weight: 500;
+    color: #334959;
+}
+
+/*-----------------------
+---- JS Exercise Styles ----
+-------------------------*/
+
+.jsExamples {
+    text-align: center;
+}
+
+    .jsExamples h3 {
+        margin-top: -20px;
+    }
+
+    .jsExamples p {
+        margin-bottom: 50px;
+    }
+
+.jsExerIconSq {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto 50px;
+    border-radius: 0%;
+    font-size: 40px;
+    line-height: 150px;
+    background: #334959;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+    .jsExerIconSq:hover {
+        -ms-transform: scale(1.1, 1.1); /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1); /* Safari */
+        transform: scale(1.1, 1.1);
+        transition: all 0.2s ease-out;
+    }
+
+    .jsExerIconSq:after {
+        pointer-events: none;
+        content: "";
+        position: absolute;
+        width: 174px;
+        height: 174px;
+        top: -12px;
+        left: -12px;
+        border: 3px solid #334959;
+        border-radius: 0%;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
+.jsExerIconCir {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150px;
+    background: #377989;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+    .jsExerIconCir:hover {
+        -ms-transform: scale(1.1, 1.1); /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1); /* Safari */
+        transform: scale(1.1, 1.1);
+        transition: all 0.2s ease-out;
+    }
+
+    .jsExerIconCir:after {
+        pointer-events: none;
+        content: "";
+        position: absolute;
+        width: 174px;
+        height: 174px;
+        top: -12px;
+        left: -12px;
+        border: 3px solid #377989;
+        border-radius: 50%;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
+.no-csstransforms .jsExerIconSq:after {
+    display: none;
+}
+
+.jsExerIconSq:focus,
+.jsExerIconSq:active {
+    color: #fff;
+}
+
+
+/*------------------------------------------
+---- Modal Exercises Styling ----
+--------------------------------------------*/
+
+.myContainer {
+    margin-top: 5px;
+}
+
+.darkBlue {
+    background-color: #334959;
+}
+
+.medBlue {
+    background-color: #377989;
+}
+
+.myModalHeaderText {
+    font-weight: 400;
+    color: white;
+}
+
+input {
+    display: block;
+}
+
+.buttonSpace {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mySubmitBttn,
+.myResetBttn {
+    padding: 8px 21px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    background: grey;
+    outline: none !important;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+}
+
+.mySubmitBttn {
+    background: #377989;
+}
+
+    .mySubmitBttn:hover,
+    .myResetBttn:hover {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+    .mySubmitBttn:focus,
+    .mySubmitBttn:active,
+    .myResetBttn:focus,
+    .myResetBttn:active {
+        color: #fff;
+    }
+
+    .mySubmitBttn .fa,
+    .myResetBttn .fa {
+        margin-right: 15px;
+    }
+
+.fieldSpacing input {
+    margin-top: 10px;
+}
+
+#modalCloseBttnStyling {
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    margin-right: -5px;
+    float: right;
+    color: white;
+}
+
+    #modalCloseBttnStyling:hover {
+        cursor: pointer;
+        color: white;
+        -webkit-transform: scale(1.2);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+
+.syntaxHighlighterWindow-Border {
+    background-color: grey;
+}
+
+/*------------------------------------------
+---- Modal Exercises Styling End ----
+--------------------------------------------*/
+
+
+
