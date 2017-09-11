@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,6 +99,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\bg-resume.png" />
+    <Content Include="assets\images\blog-thumb.png" />
+    <Content Include="assets\images\bugTracker-thumb.jpg" />
+    <Content Include="assets\images\calculator-thumb.png" />
+    <Content Include="assets\images\carFinder-thumb.jpg" />
+    <Content Include="assets\images\e-commerce-Site-thumb.png" />
+    <Content Include="assets\images\financialPortal-thumb.jpg" />
+    <Content Include="assets\images\header-bg.jpg" />
+    <Content Include="assets\images\slide-e-commerce-Site.jpg" />
     <Content Include="assets\js\js-Challenges.js" />
     <Content Include="Content\SyntaxHighlighter\shCore.css" />
     <Content Include="Content\SyntaxHighlighter\shCoreDefault.css" />
@@ -158,6 +168,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="assets\pdfs\JuddWhitehead-Resume-2017.pdf" />
+    <None Include="Properties\PublishProfiles\jwhitehead-portfolio - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\jwhitehead-portfolio - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -191,7 +204,6 @@
     <Content Include="assets\images\bg-twitter.png" />
     <Content Include="assets\images\favicon.ico" />
     <Content Include="assets\images\favicon.png" />
-    <Content Include="assets\images\header-bg.jpg" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\pin-dark.png" />
     <Content Include="assets\images\preloader.gif" />
