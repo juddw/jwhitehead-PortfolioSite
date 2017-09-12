@@ -184,3 +184,45 @@ function findVowels() {
     document.getElementById("result1-Vowels").innerHTML = "List of vowels is [" + y + "] " + numberOfVowels;
 
 }
+
+// Modal 1
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-Math').on('hide.bs.modal', function () {
+    resetAnswers();
+})
+
+// Modal 2
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-Factorial').on('hide.bs.modal', function () {
+    document.getElementById("result1-Factorial").innerHTML = "";
+    document.getElementById("field1-Factorial").value = "Enter a positive number.";
+})
+
+// Modal 3
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-FizzBuzz').on('hide.bs.modal', function () {
+    document.getElementById("result1-FizzBuzz").innerHTML = "";
+    document.getElementById("field1-FizzBuzz").value = "Enter number 1 to 100.";
+    document.getElementById("field2-FizzBuzz").value = "Enter number 1 to 100.";
+})
+
+// Modal 4
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-Palindromes').on('hide.bs.modal', function () {
+    document.getElementById("result1-Palindromes").innerHTML = "";
+    document.getElementById("field1-Palindromes").value = "Enter a word or phrase.";
+})
+
+// Modal 5
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-abcOrder').on('hide.bs.modal', function () {
+    document.getElementById("result1-abcOrder").innerHTML = "";
+    document.getElementById("field1-abcOrder").value = "Enter a word.";
+})
+
+// Modal 6
+// reset fields when modal is closed or clicked off of.
+$('#myJSModal-Vowels').on('hide.bs.modal', function () {
+    document.getElementById("result1-Vowels").innerHTML = "";
+    document.getElementById("field1-Vowels").value = "Enter a phrase.";  
+})
