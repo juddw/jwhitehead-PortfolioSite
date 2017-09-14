@@ -1,4 +1,8 @@
-﻿.pushNameDown {
+﻿
+/*-----------------------
+---- Main Styles ----
+-------------------------*/
+.pushNameDown {
     margin-top: 12px;
 }
 
@@ -21,11 +25,6 @@
 #myAboutMeHeader {
     font-weight: 300;
     color: #635645;
-}
-
-#mySkillsHeader {
-    font-weight: 300;
-    color: #334959;
 }
 
 .mySmallQuoteText {
@@ -58,8 +57,21 @@
 }
 
 /*-----------------------
+---- About Me Styles ----
+-------------------------*/
+.columnText {
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+/*-----------------------
 ---- JS Exercise Styles ----
 -------------------------*/
+#jsExercises {
+    background-color: #fff;
+    padding-bottom: 60px;
+}
 
 .jsExamples {
     text-align: center;
@@ -164,7 +176,7 @@
     background-image: url('../images/bg-resume.png');
     background-repeat: no-repeat;
     background-position: 5% 75%;
-    background-color: #fff;
+    background-color: #f1f1f1;
 }
 
 #resumePaperSize {
@@ -172,11 +184,11 @@
     border-style: solid;
     border-color: #f9f1e6;
     border-width: thin;
-    background-color: #f7f7f7;
+    background-color: white;
     width: auto;
     height: auto;
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 2px 5px 10px #999999;
+    box-shadow: -2px 5px 15px #000000;
     -webkit-transform: rotate(1deg);
     transform: rotate(1deg);
 }

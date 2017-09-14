@@ -6,7 +6,7 @@ body {
     font-family: Raleway, Arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #6d6d6d;
+    color: #454545;
     overflow-x: hidden;
 }
 
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .skills-item {
     position: absolute;
-    width: 25%;
+    width: 15%;
     height: 0;
     bottom: 0;
     border-right: 3px solid #fff;
@@ -435,18 +435,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .skill2 {
-    left: 25%;
+    left: 16%;
     background: #377989;
 }
 
 .skill3 {
-    left: 50%;
+    left: 32%;
     background: #334959;
 }
 
 .skill4 {
-    left: 75%;
+    left: 48%;
     background: #B2C7C8;
+}
+
+.skill5 {
+    left: 64%;
+    background: #c2a57e;
+}
+
+.skill6 {
+    left: 80%;
+    background: #377989;
 }
 
 .percent {
@@ -454,7 +464,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
     width: 100%;
     top: -70px;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
 }
 

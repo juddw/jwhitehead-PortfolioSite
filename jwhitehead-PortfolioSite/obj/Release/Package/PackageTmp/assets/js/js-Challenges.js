@@ -35,6 +35,7 @@ function resetAnswers() {
 }
 
 
+
 // Challenge #2 Code - FACTORIALS:
 function getAnswers() {
     // get the number entered
@@ -56,6 +57,13 @@ function getAnswers() {
 
     document.getElementById("result1-Factorial").innerHTML = answer;
 }
+
+function resetFactorial() {
+    document.getElementById("result1-Factorial").innerHTML = "";
+    document.getElementById("field1-Factorial").value = "Enter a positive number.";
+}
+
+
 
 // Challenge #3 Code - FIZZBUZZ:
 function testNumbers() {
@@ -97,6 +105,14 @@ function testNumbers() {
     }
 }
 
+function resetFizzBuzz() {
+    document.getElementById("result1-FizzBuzz").innerHTML = "";
+    document.getElementById("field1-FizzBuzz").value = "Enter number 1 to 100.";
+    document.getElementById("field2-FizzBuzz").value = "Enter number 1 to 100.";
+}
+
+
+
 // Challenge #4 Code - Palindromes:
 function testWord() {
     var theirWord = document.getElementById("field1-Palindromes").value;
@@ -128,6 +144,13 @@ function testWord() {
         // console.log("this is not palindrome!")
     }
 }
+
+function resetPalindromes() {
+    document.getElementById("result1-Palindromes").innerHTML = "";
+    document.getElementById("field1-Palindromes").value = "Enter a word or phrase.";
+}
+
+
 
 /*
  Challenge #4 Code version2 No Loop - Palindromes:
@@ -165,6 +188,13 @@ function abcOrder() {
     document.getElementById("result1-abcOrder").innerHTML = theirWordLettersSortedAlphabetically;
 }
 
+function resetABC() {
+    document.getElementById("result1-abcOrder").innerHTML = "";
+    document.getElementById("field1-abcOrder").value = "Enter a word.";
+}
+
+
+
 // Challenge Bonus D - Find Vowels for phrase and retun vowels and total count:
 function findVowels() {
     // set variables
@@ -185,44 +215,39 @@ function findVowels() {
 
 }
 
+function resetVowels() {
+    document.getElementById("result1-Vowels").innerHTML = "";
+    document.getElementById("field1-Vowels").value = "Enter a phrase.";
+}
+
+
+// Reset fields when modal is closed or clicked off of.
 // Modal 1
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-Math').on('hide.bs.modal', function () {
     resetAnswers();
 })
 
 // Modal 2
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-Factorial').on('hide.bs.modal', function () {
-    document.getElementById("result1-Factorial").innerHTML = "";
-    document.getElementById("field1-Factorial").value = "Enter a positive number.";
+    resetFactorial();
 })
 
 // Modal 3
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-FizzBuzz').on('hide.bs.modal', function () {
-    document.getElementById("result1-FizzBuzz").innerHTML = "";
-    document.getElementById("field1-FizzBuzz").value = "Enter number 1 to 100.";
-    document.getElementById("field2-FizzBuzz").value = "Enter number 1 to 100.";
+    resetFizzBuzz();
 })
 
 // Modal 4
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-Palindromes').on('hide.bs.modal', function () {
-    document.getElementById("result1-Palindromes").innerHTML = "";
-    document.getElementById("field1-Palindromes").value = "Enter a word or phrase.";
+    resetPalindromes();
 })
 
 // Modal 5
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-abcOrder').on('hide.bs.modal', function () {
-    document.getElementById("result1-abcOrder").innerHTML = "";
-    document.getElementById("field1-abcOrder").value = "Enter a word.";
+    resetABC();
 })
 
 // Modal 6
-// reset fields when modal is closed or clicked off of.
 $('#myJSModal-Vowels').on('hide.bs.modal', function () {
-    document.getElementById("result1-Vowels").innerHTML = "";
-    document.getElementById("field1-Vowels").value = "Enter a phrase.";  
+    resetVowels();  
 })
