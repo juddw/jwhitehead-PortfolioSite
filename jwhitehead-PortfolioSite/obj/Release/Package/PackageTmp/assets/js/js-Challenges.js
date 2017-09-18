@@ -221,6 +221,7 @@ function resetVowels() {
 }
 
 
+
 // Reset fields when modal is closed or clicked off of.
 // Modal 1
 $('#myJSModal-Math').on('hide.bs.modal', function () {

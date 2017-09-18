@@ -185,15 +185,7 @@
     <Content Include="assets\css\font-awesome.css" />
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\juddStyles.css" />
-    <Content Include="assets\css\styles-1.css" />
-    <Content Include="assets\css\styles-2.css" />
-    <Content Include="assets\css\styles-3.css" />
-    <Content Include="assets\css\styles-4.css" />
-    <Content Include="assets\css\styles-5.css" />
     <Content Include="assets\css\styles-6.css" />
-    <Content Include="assets\css\styles-7.css" />
-    <Content Include="assets\css\styles-8.css" />
-    <Content Include="assets\css\styles-9.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\images\about.jpg" />
     <Content Include="assets\images\apple-touch-icon-114x114.png" />
@@ -256,11 +248,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmailModel.cs" />
+    <Compile Include="Models\PersonalEmail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
