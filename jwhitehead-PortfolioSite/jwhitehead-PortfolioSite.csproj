@@ -99,14 +99,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\3D-thumb.jpg" />
     <Content Include="assets\images\bg-resume.png" />
     <Content Include="assets\images\blog-thumb.png" />
+    <Content Include="assets\images\Br-005.jpg" />
     <Content Include="assets\images\bugTracker-thumb.jpg" />
     <Content Include="assets\images\calculator-thumb.png" />
     <Content Include="assets\images\carFinder-thumb.jpg" />
     <Content Include="assets\images\e-commerce-Site-thumb.png" />
     <Content Include="assets\images\financialPortal-thumb.jpg" />
+    <Content Include="assets\images\graphicDesign-thumb.png" />
+    <Content Include="assets\images\GrfDsgn-001.jpg" />
+    <Content Include="assets\images\GrfDsgn-007.jpg" />
+    <Content Include="assets\images\GrfDsgn-010.jpg" />
+    <Content Include="assets\images\header-bg-blogfull.jpg" />
     <Content Include="assets\images\header-bg.jpg" />
+    <Content Include="assets\images\photos-thumb.png" />
+    <Content Include="assets\images\Phtgr-003.jpg" />
+    <Content Include="assets\images\Phtgr-008.jpg" />
+    <Content Include="assets\images\Rdr-001.jpg" />
+    <Content Include="assets\images\Rdr-008.jpg" />
+    <Content Include="assets\images\Rdr-013.jpg" />
     <Content Include="assets\images\slide-e-commerce-Site.jpg" />
     <Content Include="assets\js\js-Challenges.js" />
     <Content Include="Content\SyntaxHighlighter\shCore.css" />
@@ -193,10 +206,8 @@
     <Content Include="assets\images\apple-touch-icon.png" />
     <Content Include="assets\images\bg-contact.png" />
     <Content Include="assets\images\bg-portfolio.jpg" />
-    <Content Include="assets\images\bg-twitter.png" />
     <Content Include="assets\images\favicon.ico" />
     <Content Include="assets\images\favicon.png" />
-    <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\pin-dark.png" />
     <Content Include="assets\images\preloader.gif" />
     <Content Include="assets\images\slide.png" />
