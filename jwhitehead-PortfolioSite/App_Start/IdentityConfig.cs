@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Configuration;
+using System.Net;
 
-namespace jwhitehead_PortfolioSite.Models
+namespace jwhitehead_PortfolioSite.App_Start
 {
+    // jw: added
     public class PersonalEmail
     {
         public async Task SendAsync(MailMessage message)
@@ -40,6 +38,7 @@ namespace jwhitehead_PortfolioSite.Models
                 {
                     Console.WriteLine(e.Message);
                     await Task.FromResult(0);
+
                 }
             };
         }

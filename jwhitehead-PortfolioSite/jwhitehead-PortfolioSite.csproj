@@ -182,6 +182,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="assets\pdfs\JuddWhitehead-Resume-2017.pdf" />
+    <Content Include="private.config" />
     <None Include="Properties\PublishProfiles\jwhitehead-portfolio - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\jwhitehead-portfolio - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
@@ -254,6 +255,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
