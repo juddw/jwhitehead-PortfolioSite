@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace jwhitehead_PortfolioSite.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
         // GET: Home
