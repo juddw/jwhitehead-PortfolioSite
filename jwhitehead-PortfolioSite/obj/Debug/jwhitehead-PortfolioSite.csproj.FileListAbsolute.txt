@@ -52,3 +52,4 @@ c:\users\judd whitehead\documents\visual studio 2017\Projects\jwhitehead-Portfol
 c:\users\judd whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.csprojResolveAssemblyReference.cache
 c:\users\judd whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.dll
 c:\users\judd whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.pdb
+C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.csproj.CoreCompileInputs.cache
