@@ -119,8 +119,8 @@
     <Content Include="assets\images\Phtgr-003.jpg" />
     <Content Include="assets\images\Phtgr-008.jpg" />
     <Content Include="assets\images\Rdr-001.jpg" />
-    <Content Include="assets\images\Rdr-008.jpg" />
     <Content Include="assets\images\Rdr-013.jpg" />
+    <Content Include="assets\images\Rdr-004.jpg" />
     <Content Include="assets\images\slide-blog-Site.jpg" />
     <Content Include="assets\images\slide-bugTracker-Site.jpg" />
     <Content Include="assets\images\slide-e-commerce-Site.jpg" />
@@ -240,7 +240,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="assets\index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
