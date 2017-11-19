@@ -124,6 +124,7 @@
     <Content Include="assets\images\slide-blog-Site.jpg" />
     <Content Include="assets\images\slide-bugTracker-Site.jpg" />
     <Content Include="assets\images\slide-e-commerce-Site.jpg" />
+    <Content Include="assets\images\slide-financialPortal-Site.jpg" />
     <Content Include="assets\js\js-Challenges.js" />
     <Content Include="Content\SyntaxHighlighter\shCore.css" />
     <Content Include="Content\SyntaxHighlighter\shCoreDefault.css" />
