@@ -40,15 +40,6 @@ C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-Portfol
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.WebPages.Razor.dll
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\WebGrease.dll
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\Antlr3.Runtime.pdb
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\Newtonsoft.Json.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.Helpers.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.Mvc.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.Optimization.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.Razor.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.WebPages.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\bin\System.Web.WebPages.Razor.xml
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.csproj.CoreCompileInputs.cache
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.dll
 C:\Users\Judd Whitehead\documents\visual studio 2017\Projects\jwhitehead-PortfolioSite\jwhitehead-PortfolioSite\obj\Debug\jwhitehead-PortfolioSite.pdb
